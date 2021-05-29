@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>Login Form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#myNavbar"
+                    >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" />
+                    </a>
+                    <h4 id="logo-name">Metro Published</h4>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">ANASAYFA</a></li>
+                        <li><a href="#">BİLET AL</a></li>
+                        <li><a href="#">HAKKIMIZDA</a></li>
+                        <li><a href="#">İLETİŞİM</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-log-in"></span
+                                >Giriş
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span
+                                    class="glyphicon glyphicon-floppy-disk"
+                                ></span
+                                >Kaydol
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-center">
+            <div class="row" id="content">
+                <div class="col-sm-6">
+                    <img
+                        src="images/undraw_shopping_app_flsj.svg"
+                        class="img-responsive"
+                        style="width: 100%"
+                        alt="Image"
+                    />
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3">
+                            <img
+                                src="images/undraw_female_avatar_w3jk.svg"
+                                class="img-responsive"
+                                style="width: 100%"
+                                alt="Image"
+                            />
+                        </div>
+                        <div class="col-sm-3">
+                            <img
+                                src="images/undraw_male_avatar_323b.svg"
+                                class="img-responsive"
+                                style="width: 100%"
+                                alt="Image"
+                            />
+                        </div>
+                        <div class="col-sm-3"></div>
+
+                        <div class="col-sm-12">
+                            <h1 id="hosgeldiniz">HOŞ GELDİNİZ</h1>
+                        </div>
+
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <form>
+                                <div class="form-group">
+                                    <input
+                                        type="number"
+                                        class="form-control"
+                                        placeholder="Telefon No"
+                                    />
+                                    <a href="#"
+                                        ><small
+                                            class="form-text text-muted text-right"
+                                            >Şifrenizi mi unuttunuz?</small
+                                        >
+                                    </a>
+                                </div>
+                                <div class="form-group">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-clr btn-lg"
+                                        id="gonder"
+                                    >
+                                        ALIŞVERİŞE BAŞLA
+                                    </button>
+                                </div>
+                                <div class="form-group">
+                                    <h5><b>HALA ÜYE DEĞİL MİSİNİZ?</b></h5>
+                                    <button type="submit" class="btn btn-clr">
+                                        ÜYE OL
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <footer class="container-fluid text-center" id="footer">
+            <div class="row">
+                <div class="col-md-12" id="top-footer">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>ASD</h4>
+                            <h5>ASD</h5>
+                            <h5>ASD</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>ASD</h4>
+                            <h5>ASD</h5>
+                            <h5>ASD</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>ASD</h4>
+                            <h5>ASD</h5>
+                            <h5>ASD</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-left">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" />
+                    </a>
+                    <h4 id="logo-name">Akıllı Alışveriş Sistemi</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        Project Copyright 2020 by Mehmet Tekin Altun Everything
+                        else Copyright © EYGA, 2017-2020 Web02 2.8.20201015.1
+                    </p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <a href="#"><img src="images/facebook.png" /></a>
+                    <a href="#"><img src="images/instagram.png" /></a>
+                    <a href="#"><img src="images/twitter.png" /></a>
+                    <a href="#"><img src="images/linkedin.png" /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

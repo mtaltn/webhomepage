@@ -1,0 +1,59 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #7b7ae3;
+}
+.navbar-nav li {
+    background-color: #474787;
+}
+.navbar-nav li a {
+    color: #fff;
+}
+#hosgeldiniz {
+    color: #776ef1;
+    font-weight: bold;
+}
+.btn-clr {
+    background-color: #786ff2;
+    color: #fff;
+    border-radius: 30px;
+}
+#gonder {
+    width: 100%;
+}
+#content {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.navbar-header {
+    max-height: 51px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+.navbar-brand {
+    padding: 3px;
+}
+.navbar-brand img {
+    width: 44px;
+}
+#logo-name {
+    color: #000;
+}
+#footer{
+    background-color: #7158E2;
+}
+#top-footer{
+    margin-bottom: 50px;
+}
